@@ -4,14 +4,82 @@
     "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj": {
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Application\\BlogEngineWebApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj",
-        "projectName": "BlogEngineWebApi",
-        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Application\\BlogEngineWebApi.Application.csproj",
+        "projectName": "BlogEngineWebApi.Application",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Application\\BlogEngineWebApi.Application.csproj",
         "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\obj\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuanPawloSierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj"
+              },
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj",
+        "projectName": "BlogEngineWebApi.Domain",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +108,156 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj",
+        "projectName": "BlogEngineWebApi.Infrastructure",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuanPawloSierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj",
+        "projectName": "BlogEngineWebApi",
+        "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\BlogEngineWebApi.csproj",
+        "packagesPath": "C:\\Users\\JuanPawloSierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuanPawloSierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Application\\BlogEngineWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Application\\BlogEngineWebApi.Application.csproj"
+              },
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Domain\\BlogEngineWebApi.Domain.csproj"
+              },
+              "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\JuanPawloSierra\\source\\repos\\Projects\\BlogEngineWebApi\\BlogEngineWebApi.Infrastructure\\BlogEngineWebApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
