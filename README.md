@@ -7,9 +7,13 @@ The purpose of this API is to be able to search, create and edit blogs and categ
 should always be sorted by descending publication date. All routes must return JSON. The API mustimplement the following routes:
 
 • /posts
+
 • /posts/[ID]
+
 • /categories
+
 • /categories/[ID]
+
 • /categories/[ID]/posts
 
 Data Model
