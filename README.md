@@ -21,9 +21,9 @@ The blog consists of a series of posts which are grouped by category.
 
 Technology stack
 
-.NET Core 3.1
-MediatR
-AutoMapper
-xUnit
-Moq
-SQLServer
+•.NET Core 3.1
+•MediatR
+•AutoMapper
+•xUnit
+•Moq
+•SQLServer
